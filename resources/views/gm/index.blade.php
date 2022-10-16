@@ -41,22 +41,23 @@
         <!--about content-->
         <div id="about-content">
             <div class="about-header">
-                About <span class="color">Me</span>
-                <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                Sobre <span class="color">Mim</span>
+                <span class="header-caption">Sejam <span class="color">Bem-vindos!</span></span>
             </div>
             <div class="about-main">
                 <div class="about-first-paragraph wow">
                     <!--about description-->
                     <span class="about-first-line">
-                        I'm creative
-                        <span class="color">web developer</span>
-                        based in New York , USA </span>
+                        João Peres <br>
+                        <span class="color">Web Developer</span>
+                    </span>
                     <br>
-                    <span class="about-second-line"> With 20 years of experience as a professional Web developer, I
-                        have acquired the skills and knowledge necessary to make your project a success. I enjoy
-                        every step while working.</span>
+                    <span class="about-second-line"> Com 2 anos de experiência como desenvolvedor Web. <br> <br>
+                        Adquiri as habilidades e conhecimentos necessários para tornar o teu projeto um sucesso. <br><br>
+                        Eu gosto do que faço atualmente, de trabalhar, ganhar conhecimentos e melhorar a cada dia.</span>
                     <div class="cv">
-                        <a href="#"><button>Download <span class="colors">CV</span></button></a>
+                        <a href="https://drive.google.com/file/d/1-uzVTDm3c51SBObLSHaPXDoVo3xdhL_A/view?usp=sharing"><button>Download
+                                <span class="colors">CV</span></button></a>
                     </div>
                 </div>
                 <!--about picture-->
@@ -100,7 +101,7 @@
             </div>
             <!--services header-->
             <div class="services-heading wow">
-                <span class="color">My</span> Services
+                <span class="color">Os Meus</span> Serviços
             </div>
             <!--services header end-->
             <!--services content-->
@@ -111,7 +112,7 @@
                     </div>
                     <div class="service-description">
                         <h2>Web Designing</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        <p>Construir um website com o layout ao seu gosto</p>
                     </div>
                 </div>
                 <div class="service-two service wow">
@@ -120,7 +121,7 @@
                     </div>
                     <div class="service-description">
                         <h2>Social Media</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        <p>Criação de ilustrações, banners, flyers e cartazes adequados à sua necessidade</p>
                     </div>
                 </div>
                 <div class="service-three service wow">
