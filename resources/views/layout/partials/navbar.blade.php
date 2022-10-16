@@ -1,25 +1,29 @@
-<header id="header">
-    <div class="container-fluid">
-        <div class="navbar">
-            <a href="#" id="logo" title="Elegance by TemplateMo">
-                Elegance
-            </a>
-            <div class="navigation-row">
-                <nav id="navigation">
-                    <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                    <div class="nav-box navbar-collapse">
-                        <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                            <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
-                            <li data-menuanchor="slide02"><a href="#slide02">About Me</a></li>
-                            <li data-menuanchor="slide03"><a href="#slide03">Services</a></li>
-                            <li data-menuanchor="slide04"><a href="#slide04">My Skills</a></li>
-                            <li data-menuanchor="slide05"><a href="#slide05">My Work</a></li>
-                            <li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>
-                            <li data-menuanchor="slide07"><a href="#slide07">Contact Me</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
+ <!--Navigator-fullscreen-->
+ <div id="navigation-content">
+     <div class="logo">
+         <img src="images/willy wonka logo.png" alt="logo">
+     </div>
+     <div class="navigation-close">
+         <span class="close-first"></span>
+         <span class="close-second"></span>
+     </div>
+     <div class="navigation-links">
+         <a href="#" data-text="HOME" id="home-link">HOME</a>
+         <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+         <a href="#" data-text="BLOG" id="blog-link">BLOG</a>
+         <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
+         <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+     </div>
+ </div>
+ <!--Navigator-Fullscreen END-->
+ <!--Home Page-->
+ <!--Menubar-->
+ <div id="navigation-bar">
+     <img src="images/willy wonka logo.png" alt="logo">
+     <div class="menubar">
+         <span class="first-span"></span>
+         <span class="second-span"></span>
+         <span class="third-span"></span>
+     </div>
+ </div>
+ <!--Menubar End-->

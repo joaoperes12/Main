@@ -1,516 +1,563 @@
-@extends ('master')
-
-@section('Title', 'Home')
-
-@section('content')
 
 
-    <body>
-
-
-
-        <video autoplay muted loop id="myVideo">
-            <source src="{{ asset('images/video-bg.mp4') }}" type="video/mp4">
-        </video>
-
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">Olá, Bem-Vindo à</span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">ImaginationWeb</h1>
-                        <p class="animate" data-animate="fadeInUp">This is a clean and modern HTML5 template with a
-                            video background. You can use this layout for your profile page. Please spread a word about
-                            templatemo to your friends. Thank you.</p>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp""><img
-                                src="{{ asset('images/mouse-scroll.png') }}" alt=""><span>Scroll Down</span></div>
+       
+      
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            I'm creative
+                            <span class="color">web developer</span>
+                            based in New York , USA </span>
+                        <br>
+                        <span class="about-second-line"> With 20 years of experience as a professional Web developer, I
+                            have acquired the skills and knowledge necessary to make your project a success. I enjoy
+                            every step while working.</span>
+                        <div class="cv">
+                            <a href="#"><button>Download <span class="colors">CV</span></button></a>
+                        </div>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                        <img src="images/about.jpg" alt="Your Image">
+                    </div>
+                </div>
 
-            <div class="section animated-row" data-section="slide02">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Me</span>
-                                                <h2>Who am i?</h2>
-                                                <p>Credits go to <strong>Unsplash</strong> and <strong>Pexels</strong>
-                                                    for photos and video used in this template. Vivamus tincidunt, augue
-                                                    rutrum convallis volutpat, massa lacus tempus leo.</p>
-                                            </div>
-                                            <div class="facts-list owl-carousel">
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i><span
-                                                            class="count-number">32</span>
-                                                        Awards Won
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-graduation-cap counter-icon"
-                                                            aria-hidden="true"></i><span class="count-number">4</span>
-                                                        Degrees
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span
-                                                            class="count-number">12</span>
-                                                        Working Years
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span
-                                                            class="count-number">6</span>
-                                                        Team Members
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-certificate counter-icon"
-                                                            aria-hidden="true"></i><span class="count-number">10</span>
-                                                        Certificates
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img
-                                                src="{{ asset('images/profile-girl.jpg') }}" class="rounded" alt="">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul>
+                                <li>
+                                    <a href="#0" class="color-red " title="color-red"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-purple" title="color-purple"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-malt" title="color-malt"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-green" title="color-green"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-blue" title="color-blue"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-orange" title="color-orange"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--services header-->
+                <div class="services-heading wow">
+                    <span class="color">My</span> Services
+                </div>
+                <!--services header end-->
+                <!--services content-->
+                <div class="services-content">
+                    <div class="service-one service wow">
+                        <div class="service-img">
+                            <img src="images/coding.png" alt="service-one">
+                        </div>
+                        <div class="service-description">
+                            <h2>Web Designing</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        </div>
+                    </div>
+                    <div class="service-two service wow">
+                        <div class="service-img">
+                            <img src="images/instagram.png" alt="service-two">
+                        </div>
+                        <div class="service-description">
+                            <h2>Social Media</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        </div>
+                    </div>
+                    <div class="service-three service wow">
+                        <div class="service-img">
+                            <img src="images/bulb.png" alt="service-three">
+                        </div>
+                        <div class="service-description">
+                            <h2>Creative Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="section animated-row" data-section="slide03">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Services</span>
-                                <h2>What I Do?</h2>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                    My <span class="color"> Skills</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                HTML/CSS
                             </div>
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Bootstrap Themes</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>HTML5 Coding</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-desktop"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Fully Responsive</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-mobile"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Mobile Ready</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-comments"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Fast Support</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-database"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>24-hour Up Time</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bell"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Instant Upgrades</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-camera"
-                                                    aria-hidden="true"></i></span>
-                                            <h3>Always Monitoring</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
-                                                maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="html-progress wow">95%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Javascript
                             </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="js-progress wow">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                Adobe Ps
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="adobe-progress wow">83%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                PHP
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="php-progress wow">87%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                JQuery
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="jquery-progress wow">94%</div>
+                        </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                            <div class="html">
+                                SEO
+                            </div>
+                        </div>
+                        <div class="html-prog wow prog">
+                            <div class="seo-progress wow">84%</div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="section animated-row" data-section="slide04">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Skills</span>
-                                <h2>What i’m good?</h2>
-                            </div>
-                            <div class="skills-row animate" data-animate="fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-2">
-                                        <div class="skill-item">
-                                            <h6>HTML CSS</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>PSD Design</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Social Media</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>Leadership</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                    Wonkas
                 </div>
             </div>
-
-            <div class="section animated-row" data-section="slide06">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>My Work</span>
-                                <h2>what i’ve done?</h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-1.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-2.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap themes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-3.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap layouts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-1.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-2.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-3.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-1.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-2.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="{{ asset('images/item-3.jpg') }}" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to
-                                                    download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>TESTIMONIALS</span>
-                                <h2>what THEY SAY?</h2>
-                            </div>
-                            <div class="col-md-8 offset-md-2">
-                                <div class="testimonials-section">
-                                    <div class="testimonials-slider owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="{{ asset('images/profile-01.jpg') }}"
-                                                        class="rounded-circle" alt="profile 1">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Sandar</h4>
-                                                    <p>"Ut varius leo eu mauris lacinia, eleifend posuere urna gravida.
-                                                        Aenean a mattis lacus."</p>
-                                                    <span>Managing Director</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="{{ asset(' images/profile-01.jpg') }}"
-                                                        class="rounded-circle" alt="profile 2">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Shinn</h4>
-                                                    <p>"Nam iaculis, leo nec facilisis sollicitudin, dui massa tempus
-                                                        odio, vitae malesuada ante elit vitae eros."</p>
-                                                    <span>CEO and Founder</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="{{ asset('images/profile-01.jpg') }}"
-                                                        class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Marlar</h4>
-                                                    <p>"Etiam efficitur, tortor facilisis finibus semper, diam magna
-                                                        fringilla lectus, et fringilla felis urna posuere tortor."</p>
-                                                    <span>Chief Marketing Officer</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contacto</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                            <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City
-                                                10220
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-phone"></i> 090 080 0210
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> info@company.co
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form id="ajax-contact" method="post" action="#">
-                                            <div class="input-field">
-                                                <input type="text"
-                                                    class="form-control @error('name') is-invalid @enderror"
-                                                    name="name" id="name" value="{{ old('message') }}" required
-                                                    autocomplete="name" autofocus placeholder="Name">
-                                                @error('name')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="email"
-                                                    class="form-control @error('email') is-invalid @enderror"
-                                                    name="email" id="email" value="{{ old('email') }}" required
-                                                    autocomplete="email" placeholder="Email">
-                                                @error('email')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="subject"
-                                                    class="form-control @error('subject') is-invalid @enderror"
-                                                    name="subject" id="subject" value="{{ old('subject') }}" required
-                                                    autocomplete="subject" autofocus placeholder="Assunto">
-                                                @error('subject')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
-                                            <div class="input-field">
-                                                <textarea class="form-control @error('message') is-invalid @enderror" name="message" id="message"
-                                                    value="{{ old('message') }}"required autocomplete="message" autofocus placeholder="Mensagem"></textarea>
-                                                @error('message')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                            </div>
-                                            <button class="btn" type="submit">Submit</button>
-                                        </form>
-                                        <div id="form-messages" class="mt-3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!--copyright-section-->
         </div>
-
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#" title="Instagram"><i class="fa fa-behance"></i></a></li>
-                </ul>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+                <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+            </div>
+            <div id="portfolio-content">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>App Idea</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                            expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
+                            ducimus</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Web Designing</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad
+                            laudantium suscipit
+                            voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>UI Designing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                            expedita eius dignissimos
+                            .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Wow Graphics</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
+                            expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
+                            ducimus</p>
+                        <div class="button"><a href="#"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+            </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                    Wonkas
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
+        <!--portfolio end-->
+        <!--blog-->
+        <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-header"> Blogs</span>
+                <span class="header-caption"> My Latest <span class="color"> blog posts.</span></span>
+            </div>
+            <div class="blog-content">
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-one.jpg" alt="blog-one">
+                            <div class="blog-date">8 May,20</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Harleys In Hawaai</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae
+                                illum, corrupti quo
+                                veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum
+                                provident? Magnam fugiat voluptas
+                                libero.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-two.jpg" alt="blog-two">
+                            <div class="blog-date">16 Jan,20</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Key To Be Productive</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores,
+                                recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda
+                                harum dolorum iusto tenetur
+                                eius eligendi dolor magnam sit!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-three.jpg" alt="blog-three">
+                            <div class="blog-date">30 Nov,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Caffeine Addict</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit
+                                ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur
+                                suscipit cum quas.
+                                Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-four.jpg" alt="blog-four">
+                            <div class="blog-date">6 Jul,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam
+                                vitae,
+                                quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis
+                                praesentium quae.
+                                Sed, quibusdam necessitatibus.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-five.jpg" alt="blog-five">
+                            <div class="blog-date">1 Jun,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Work From Home</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem
+                                dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque
+                                illum, soluta hic minus
+                                sint explicabo..</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-six.jpg" alt="blog-six">
+                            <div class="blog-date">28 Feb,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Business Trip</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga
+                                ratione, unde,
+                                ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut
+                                rerum nam.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                    Wonkas
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
+        <!--blog end-->
+        <!--contact-->
+        <div id="contact">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-header">Contact <span class="color"> Me</span>
+                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+            </div>
+            <div class="contact-content">
+                <!--Contact form-->
+                <div class="contact-form">
+                    <div class="form-header">
+                        Message Me
+                    </div>
+                    <form id="myForm" action="#">
+                        <div class="input-line">
+                            <input id="name" type="text" placeholder="Name" class="input-name">
+                            <input id="email" type="email" placeholder="Email" class="input-name">
+                        </div>
+                        <input type="text" id="subject" placeholder="subject" class="input-subject">
+                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                        <button type="button" id="submit" value="send">Submit</button>
+                    </form>
+
+                </div>
+                <!--Contact form-->
+                <!--Contact information-->
+                <div class="contact-info">
+                    <div class="contact-info-header">
+                        Contact Info
+                    </div>
+                    <div class="contact-info-content">
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Name</h6>
+                                <p>Arlo Brown</p>
+                            </div>
+                        </div>
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Location</h6>
+                                <p>New York, USA</p>
+                            </div>
+                        </div>
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Call</h6>
+                                <p>+9865376531</p>
+                            </div>
+                        </div>
+
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Email</h6>
+                                <p>Info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact information end-->
+                </div>
+            </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                    Wonkas
+                </div>
+            </div>
+            <!--copyright-section-->
+        </div>
+        <!--contact end-->
+    </div>
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 
 
+</body>
 
-    </body>
-
-    </html>
-@endsection
+</html>
