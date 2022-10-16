@@ -4,190 +4,481 @@
 
 @section('content')
 
-    <!DOCTYPE html>
-    <html lang="en">
 
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Renegades Gym</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-        <link href="{{ asset('css/indexricardo.css') }}" rel="stylesheet" />
-    </head>
-
-    <body class="d-flex flex-column h-100">
-
-        <!-- Header-->
-        <header class="fundo_personalizado" style="background-image: url('https://images.pexels.com/photos/669576/pexels-photo-669576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: bottom;">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center">
-                    <div class="col-lg-8 col-xl-7 col-xxl-6">
-                        <div class="my-5 text-center text-xl-start">
-                            <h1 class="display-5 fw-bolder text-white mb-2">Bem vindo ao nosso websites</h1>
-                            <p class="lead fw-normal text-white mb-4">Aqui poderas encontrar diversos planos de treino bem
-                                como acompanhamento e vários produtos na nossa loja.</p>
-                            <div class="gap-3 d-sm-flex justify-content-sm-center justify-content-xl-center">
-                                <a class="btn btn-danger btn-lg px-4 me-sm-3" href="https://renegadegym.biz/wp/"
-                                    target="_blank">Loja</a>
-                                <a class="btn btn-danger btn-lg px-4" href="{{ route('gm.contact') }}">Mais Informações</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5"
-                            src="{{ asset('img/logo.png') }}" alt="..." /></div>
-                </div>
-            </div>
-        </header>
-        <!-- Fim Header-->
+    <body>
 
 
 
+            <video autoplay muted loop id="myVideo">
+                <source src="images/video-bg.mp4" type="video/mp4">
+            </video>
 
+            <div id="fullpage" class="fullpage-default">
 
-
-
-        <!-- Features do ginásio -->
-        <section class="py-5" id="features">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h1 class="fw-bolder mb-0">Começe a sua aventura connosco</h1>
-                    </div>
-                    <div class="col-lg-8" >
-                        <div class="row gx-5 row-cols-1 row-cols-md-2">
-                            <div class="col mb-5 h-100">
-                                <div class="feature bg-danger bg-gradient text-white rounded-1 mb-3" style="border-radius: 5px;"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="currentColor"
-                                        class="bi bi-activity" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
-                                    </svg></i></div>
-                                <h2 class="h5">Planos de treino adaptados</h2>
-                                <p class="mb-0">Na nossa página de planos de treino irão encontrar planos
-                                    adapatados para qualquer tipo de treino. </p>
-                            </div>
-                            <div class="col mb-5 h-100">
-                                <div class="feature bg-danger bg-gradient text-white rounded-3 mb-3"  style="border-radius: 5px;"><i
-                                        class="bi bi-person"></i></div>
-                                <h2 class="h5">Incrição gratuita</h2>
-                                <p class="mb-0">Este projeto tem como objetivo não cobrar inscrição nem
-                                    mensalidades, incentivando assim as pessoas a aderirem.</p>
-                            </div>
-                            <div class="col mb-5 mb-md-0 h-100">
-                                <div class="feature bg-danger bg-gradient text-white rounded-3 mb-3" style="border-radius: 5px;"><i
-                                        class="bi bi-minecart-loaded"></i></div>
-                                <h2 class="h5">Produtos próprios</h2>
-                                <p class="mb-0">Todos os produtos da nossa loja são exclusivos e limitados.</p>
-                            </div>
-                            <div class="col h-100">
-                                <div class="feature bg-danger bg-gradient text-white rounded-3 mb-3" style="border-radius: 5px;"><i
-                                        class="bi bi-award"></i></div>
-                                <h2 class="h5">Acompanhamento profissional adequado</h2>
-                                <p class="mb-0">Durante as aulas irão ter acompanhamento feito por profissionais.
-                                </p>
-                            </div>
+                <div class="section animated-row" data-section="slide01">
+                    <div class="section-inner">
+                        <div class="welcome-box">
+                            <span class="welcome-first animate" data-animate="fadeInUp">Hello, welcome to</span>
+                            <h1 class="welcome-title animate" data-animate="fadeInUp">elegance</h1>
+                            <p class="animate" data-animate="fadeInUp">This is a clean and modern HTML5 template with a
+                                video background. You can use this layout for your profile page. Please spread a word about
+                                templatemo to your friends. Thank you.</p>
+                            <div class="scroll-down next-section animate data-animate="fadeInUp""><img
+                                    src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Fim features do ginásio -->
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                @if (count($quotes))
-                    @foreach ($quotes as $quote)
-                        <div class='carousel-item @if ($loop->first) active @endif'>
-                            <img id="carousel-img-height" class="d-block w-100" src="{{asset('https://images.pexels.com/photos/669578/pexels-photo-669578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')}}"
-                                alt="First slide">
-                                <div id="frase-motiv">
-                                    <p class="font-italic">" {{ $quote->quote }} "</p>
-                                    <p class="font-weight-bold text-center">{{ $quote->author }}</p>
-                                </div>
-                        </div>
-                    @endforeach
-
-                @else
-                    <div class="carousel-item active">
-                        <img id="carousel-img-height" class="d-block w-100" src="{{ asset('img/pexels-photo-3112004.jpg') }}"
-                            alt="First slide">
-                        <p id="frase-motiv">Sem frases</p>
-                    </div>
-
-                @endif
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <br><br>
-        <!-- Fim Frase -->
-
-
-
-
-        <!--   Destaques do Blog-->
-        <section class="pt-0 pb-0">
-            <div class="container px-0 my-5">
-                @if (count($posts))
-                    <div class="row gx-5">
-                        @foreach ($posts as $post)
-
-                            <div class="col-lg-4 mb-5">
-                                <div class="card h-100 shadow border-0">
-                                    <img class="card-img-top" src="{{ asset('storage/posts_images/' . $post->image) }}"
-                                        alt="..." />
-                                    <div class="card-body p-4">
-                                        <div class="badge bg-gradient rounded-pill mb-2">News</div>
-                                        <a class="text-decoration-none link-dark stretched-link" href="blog-post.html">
-                                            <h5 class="card-title mb-3">{{ $post->title }}</h5>
-                                        </a>
-                                        <p class="card-text mb-0">{{ $post->content }}</p>
+                <div class="section animated-row" data-section="slide02">
+                    <div class="section-inner">
+                        <div class="about-section">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 wide-col-laptop">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="about-contentbox">
+                                                <div class="animate" data-animate="fadeInUp">
+                                                    <span>About Me</span>
+                                                    <h2>Who am i?</h2>
+                                                    <p>Credits go to <strong>Unsplash</strong> and <strong>Pexels</strong>
+                                                        for photos and video used in this template. Vivamus tincidunt, augue
+                                                        rutrum convallis volutpat, massa lacus tempus leo.</p>
+                                                </div>
+                                                <div class="facts-list owl-carousel">
+                                                    <div class="item animate" data-animate="fadeInUp">
+                                                        <div class="counter-box">
+                                                            <i class="fa fa-trophy counter-icon"
+                                                                aria-hidden="true"></i><span class="count-number">32</span>
+                                                            Awards Won
+                                                        </div>
+                                                    </div>
+                                                    <div class="item animate" data-animate="fadeInUp">
+                                                        <div class="counter-box">
+                                                            <i class="fa fa-graduation-cap counter-icon"
+                                                                aria-hidden="true"></i><span class="count-number">4</span>
+                                                            Degrees
+                                                        </div>
+                                                    </div>
+                                                    <div class="item animate" data-animate="fadeInUp">
+                                                        <div class="counter-box">
+                                                            <i class="fa fa-desktop counter-icon"
+                                                                aria-hidden="true"></i><span class="count-number">12</span>
+                                                            Working Years
+                                                        </div>
+                                                    </div>
+                                                    <div class="item animate" data-animate="fadeInUp">
+                                                        <div class="counter-box">
+                                                            <i class="fa fa-support counter-icon"
+                                                                aria-hidden="true"></i><span class="count-number">6</span>
+                                                            Team Members
+                                                        </div>
+                                                    </div>
+                                                    <div class="item animate" data-animate="fadeInUp">
+                                                        <div class="counter-box">
+                                                            <i class="fa fa-certificate counter-icon"
+                                                                aria-hidden="true"></i><span class="count-number">10</span>
+                                                            Certificates
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <figure class="about-img animate" data-animate="fadeInUp"><img
+                                                    src="images/profile-girl.jpg" class="rounded" alt=""></figure>
+                                        </div>
                                     </div>
-                                    <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                        <div class="d-flex align-items-end justify-content-between">
-                                            <div class="d-flex align-items-center">
-                                                <img class="rounded-circle me-3" src="{{ asset('img/logo.png') }}"
-                                                    height="40px" width="40px" />
-                                                <div class="small">
-                                                    <div class="fw-bold">Kelly Rowan</div>
-                                                    <div class="text-muted">March 12, 2021 &middot; 6 min read</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section animated-row" data-section="slide03">
+                    <div class="section-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 wide-col-laptop">
+                                <div class="title-block animate" data-animate="fadeInUp">
+                                    <span>Services</span>
+                                    <h2>What I Do?</h2>
+                                </div>
+                                <div class="services-section">
+                                    <div class="services-list owl-carousel">
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-bookmark"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Bootstrap Themes</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-cloud"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>HTML5 Coding</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-desktop"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Fully Responsive</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-mobile"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Mobile Ready</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-comments"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Fast Support</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-database"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>24-hour Up Time</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-bell"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Instant Upgrades</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="service-box">
+                                                <span class="service-icon"><i class="fa fa-camera"
+                                                        aria-hidden="true"></i></span>
+                                                <h3>Always Monitoring</h3>
+                                                <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu
+                                                    maximus enim tortor vitae quam. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section animated-row" data-section="slide04">
+                    <div class="section-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 wide-col-laptop">
+                                <div class="title-block animate" data-animate="fadeInUp">
+                                    <span>My Skills</span>
+                                    <h2>What i’m good?</h2>
+                                </div>
+                                <div class="skills-row animate" data-animate="fadeInDown">
+                                    <div class="row">
+                                        <div class="col-md-8 offset-md-2">
+                                            <div class="skill-item">
+                                                <h6>HTML CSS</h6>
+                                                <div class="skill-bar">
+                                                    <span>70%</span>
+                                                    <div class="filled-bar"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <h6>PSD Design</h6>
+                                                <div class="skill-bar">
+                                                    <span>90%</span>
+                                                    <div class="filled-bar-2"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item">
+                                                <h6>Social Media</h6>
+                                                <div class="skill-bar">
+                                                    <span>70%</span>
+                                                    <div class="filled-bar"></div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item last-skill">
+                                                <h6>Leadership</h6>
+                                                <div class="skill-bar">
+                                                    <span>90%</span>
+                                                    <div class="filled-bar-2"></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        @endforeach
+                        </div>
                     </div>
-                    <!-- Fim Destaques do Blog-->
+                </div>
 
+                <div class="section animated-row" data-section="slide06">
+                    <div class="section-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 wide-col-laptop">
+                                <div class="title-block animate" data-animate="fadeInUp">
+                                    <span>My Work</span>
+                                    <h2>what i’ve done?</h2>
+                                </div>
+                                <div class="gallery-section">
+                                    <div class="gallery-list owl-carousel">
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-1.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap CSS templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-2.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap themes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-3.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap layouts.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-1.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-2.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download Bootstrap CSS templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-3.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-1.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-2.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item animate" data-animate="fadeInUp">
+                                            <div class="portfolio-item">
+                                                <div class="thumb">
+                                                    <img src="images/item-3.jpg" alt="">
+                                                </div>
+                                                <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                    <h4>templatemo is the best</h4>
+                                                    <p>Please tell your friends about it. Templatemo is the best website to
+                                                        download free Bootstrap templates.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="section animated-row" data-section="slide05">
+                    <div class="section-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 wide-col-laptop">
+                                <div class="title-block animate" data-animate="fadeInUp">
+                                    <span>TESTIMONIALS</span>
+                                    <h2>what THEY SAY?</h2>
+                                </div>
+                                <div class="col-md-8 offset-md-2">
+                                    <div class="testimonials-section">
+                                        <div class="testimonials-slider owl-carousel">
+                                            <div class="item animate" data-animate="fadeInUp">
+                                                <div class="testimonial-item">
+                                                    <div class="client-row">
+                                                        <img src="images/profile-01.jpg" class="rounded-circle"
+                                                            alt="profile 1">
+                                                    </div>
+                                                    <div class="testimonial-content">
+                                                        <h4>Sandar</h4>
+                                                        <p>"Ut varius leo eu mauris lacinia, eleifend posuere urna gravida.
+                                                            Aenean a mattis lacus."</p>
+                                                        <span>Managing Director</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item animate" data-animate="fadeInUp">
+                                                <div class="testimonial-item">
+                                                    <div class="client-row">
+                                                        <img src="images/profile-01.jpg" class="rounded-circle"
+                                                            alt="profile 2">
+                                                    </div>
+                                                    <div class="testimonial-content">
+                                                        <h4>Shinn</h4>
+                                                        <p>"Nam iaculis, leo nec facilisis sollicitudin, dui massa tempus
+                                                            odio, vitae malesuada ante elit vitae eros."</p>
+                                                        <span>CEO and Founder</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item animate" data-animate="fadeInUp">
+                                                <div class="testimonial-item">
+                                                    <div class="client-row">
+                                                        <img src="images/profile-01.jpg" class="rounded-circle"
+                                                            alt="profile 3">
+                                                    </div>
+                                                    <div class="testimonial-content">
+                                                        <h4>Marlar</h4>
+                                                        <p>"Etiam efficitur, tortor facilisis finibus semper, diam magna
+                                                            fringilla lectus, et fringilla felis urna posuere tortor."</p>
+                                                        <span>Chief Marketing Officer</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-
-                @else
-                    <h6>Sem posts</h6>
-                @endif
+                <div class="section animated-row" data-section="slide07">
+                    <div class="section-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 wide-col-laptop">
+                                <div class="title-block animate" data-animate="fadeInUp">
+                                    <span>Contact</span>
+                                    <h2>Get In Touch!</h2>
+                                </div>
+                                <div class="contact-section">
+                                    <div class="row">
+                                        <div class="col-md-6 animate" data-animate="fadeInUp">
+                                            <div class="contact-box">
+                                                <div class="contact-row">
+                                                    <i class="fa fa-map-marker"></i> 123 New Street Here, Wonderful City
+                                                    10220
+                                                </div>
+                                                <div class="contact-row">
+                                                    <i class="fa fa-phone"></i> 090 080 0210
+                                                </div>
+                                                <div class="contact-row">
+                                                    <i class="fa fa-envelope"></i> info@company.co
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 animate" data-animate="fadeInUp">
+                                            <form id="ajax-contact" method="post" action="#">
+                                                <div class="input-field">
+                                                    <input type="text" class="form-control" name="name"
+                                                        id="name" required placeholder="Name">
+                                                </div>
+                                                <div class="input-field">
+                                                    <input type="email" class="form-control" name="email"
+                                                        id="email" required placeholder="Email">
+                                                </div>
+                                                <div class="input-field">
+                                                    <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
+                                                </div>
+                                                <button class="btn" type="submit">Submit</button>
+                                            </form>
+                                            <div id="form-messages" class="mt-3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
 
-        </section>
-        </main>
+            <div id="social-icons">
+                <div class="text-right">
+                    <ul class="social-icons">
+                        <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#" title="Instagram"><i class="fa fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <script src="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('js/scripts.js') }}"></script>
+
+
     </body>
 
     </html>
