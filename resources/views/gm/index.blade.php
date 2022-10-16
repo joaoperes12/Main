@@ -1,7 +1,9 @@
-@include('master')
+@extends ('master')
 
-@section('title', 'Index')
+@section('Title', 'Home')
+
 @section('content')
+
     <!--HomePage End-->
     <!--Main-Section End-->
     <!--about-->
@@ -59,7 +61,7 @@
                 </div>
                 <!--about picture-->
                 <div class="about-img">
-                    <img src="images/about.jpg" alt="Your Image">
+                    <img src="{{ asset('images/about.jpg') }}" alt="Your Image">
                 </div>
             </div>
 
@@ -68,7 +70,7 @@
         <div id="services">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="images/gear.png" alt="">
+                    <img src="{{ asset('images/gear.png') }}" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Custom Colors</div>
@@ -105,7 +107,7 @@
             <div class="services-content">
                 <div class="service-one service wow">
                     <div class="service-img">
-                        <img src="images/coding.png" alt="service-one">
+                        <img src="{{ asset('images/coding.png') }}" alt="service-one">
                     </div>
                     <div class="service-description">
                         <h2>Web Designing</h2>
@@ -114,7 +116,7 @@
                 </div>
                 <div class="service-two service wow">
                     <div class="service-img">
-                        <img src="images/instagram.png" alt="service-two">
+                        <img src="{{ asset('images/instagram.png') }}" alt="service-two">
                     </div>
                     <div class="service-description">
                         <h2>Social Media</h2>
@@ -123,7 +125,7 @@
                 </div>
                 <div class="service-three service wow">
                     <div class="service-img">
-                        <img src="images/bulb.png" alt="service-three">
+                        <img src="{{ asset('images/bulb.png') }}" alt="service-three">
                     </div>
                     <div class="service-description">
                         <h2>Creative Design</h2>
@@ -204,7 +206,7 @@
         <!--copyright-section You Can Remove After Downloading-->
         <div class="footer">
             <div class="footer-text">
-                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> Willy
                 Wonkas
             </div>
         </div>
@@ -215,7 +217,7 @@
     <div id="portfolio">
         <div class="color-changer">
             <div class="color-panel">
-                <img src="images/gear.png" alt="">
+                <img src="{{ asset('images/gear.png') }}" alt="">
             </div>
             <div class="color-selector">
                 <div class="heading">Custom Colors</div>
@@ -249,7 +251,7 @@
         <div id="portfolio-content">
             <div class="portfolio portfolio-first">
                 <div class="portfolio-image">
-                    <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                    <img src="{{ asset('images/portfolio-first.jpg') }}" alt="portfolio-first">
                 </div>
                 <div class="portfolio-text">
                     <h2>App Idea</h2>
@@ -262,7 +264,7 @@
             </div>
             <div class="portfolio portfolio-second">
                 <div class="portfolio-image">
-                    <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                    <img src="{{ asset('images/portfolio-second.jpg') }}" alt="portfolio-second">
                 </div>
                 <div class="portfolio-text">
                     <h2>Web Designing</h2>
@@ -276,7 +278,7 @@
 
             <div class="portfolio portfolio-third">
                 <div class="portfolio-image">
-                    <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                    <img src="{{ asset('images/portfolio-third.jpg') }}" alt="portfolio-third">
                 </div>
                 <div class="portfolio-text">
                     <h2>UI Designing</h2>
@@ -289,7 +291,7 @@
             </div>
             <div class="portfolio portfolio-fourth">
                 <div class=" portfolio-image">
-                    <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                    <img src="{{ asset('images/portfolio-fourth.jpg') }}" alt="portfolio-fourth">
                 </div>
                 <div class="portfolio-text">
                     <h2>Wow Graphics</h2>
@@ -304,7 +306,7 @@
         <!--copyright-section You Can Remove After Downloading-->
         <div class="footer">
             <div class="footer-text">
-                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> Willy
                 Wonkas
             </div>
         </div>
@@ -315,7 +317,7 @@
     <div id="blog">
         <div class="color-changer">
             <div class="color-panel">
-                <img src="images/gear.png" alt="">
+                <img src="{{ asset('images/gear.png') }}" alt="">
             </div>
             <div class="color-selector">
                 <div class="heading">Custom Colors</div>
@@ -350,7 +352,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-one.jpg" alt="blog-one">
+                        <img src="{{ asset('images/post-one.jpg') }}" alt="blog-one">
                         <div class="blog-date">8 May,20</div>
                     </div>
                     <div class="blog-text">
@@ -366,7 +368,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-two.jpg" alt="blog-two">
+                        <img src="{{ asset('images/post-two.jpg') }}" alt="blog-two">
                         <div class="blog-date">16 Jan,20</div>
                     </div>
                     <div class="blog-text">
@@ -381,7 +383,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-three.jpg" alt="blog-three">
+                        <img src="{{ asset('images/post-three.jpg') }}" alt="blog-three">
                         <div class="blog-date">30 Nov,19</div>
                     </div>
                     <div class="blog-text">
@@ -396,7 +398,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-four.jpg" alt="blog-four">
+                        <img src="{{ asset('images/post-four.jpg') }}" alt="blog-four">
                         <div class="blog-date">6 Jul,19</div>
                     </div>
                     <div class="blog-text">
@@ -412,7 +414,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-five.jpg" alt="blog-five">
+                        <img src="{{ asset('images/post-five.jpg') }}" alt="blog-five">
                         <div class="blog-date">1 Jun,19</div>
                     </div>
                     <div class="blog-text">
@@ -427,7 +429,7 @@
             <div class="blogs">
                 <a href="#">
                     <div class="img">
-                        <img src="images/post-six.jpg" alt="blog-six">
+                        <img src="{{ asset('images/post-six.jpg') }}" alt="blog-six">
                         <div class="blog-date">28 Feb,19</div>
                     </div>
                     <div class="blog-text">
@@ -443,7 +445,7 @@
         <!--copyright-section You Can Remove After Downloading-->
         <div class="footer">
             <div class="footer-text">
-                <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Willy
+                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> Willy
                 Wonkas
             </div>
         </div>
@@ -510,21 +512,22 @@
                 </div>
                 <div class="contact-info-content">
                     <div class="contect-info-content-line">
-                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <img src="{{ asset('images/icon-name.pngimages/icon-name.png') }}" class="icon"
+                            alt="name-icon">
                         <div class="contact-info-icon-text">
                             <h6>Name</h6>
                             <p>Arlo Brown</p>
                         </div>
                     </div>
                     <div class="contect-info-content-line">
-                        <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                        <img src="{{ asset('images/icon-location.png') }}" class="icon" alt="location-icon">
                         <div class="contact-info-icon-text">
                             <h6>Location</h6>
                             <p>New York, USA</p>
                         </div>
                     </div>
                     <div class="contect-info-content-line">
-                        <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                        <img src="{{ asset('images/icon-phone.png') }}" class="icon" alt="phone-icon">
                         <div class="contact-info-icon-text">
                             <h6>Call</h6>
                             <p>+9865376531</p>
@@ -532,7 +535,7 @@
                     </div>
 
                     <div class="contect-info-content-line">
-                        <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                        <img src="{{ asset('images/icon-email.png') }}" class="icon" alt="email-icon">
                         <div class="contact-info-icon-text">
                             <h6>Email</h6>
                             <p>Info@example.com</p>
@@ -542,11 +545,9 @@
                 <!--Contact information end-->
             </div>
         </div>
-       
+
     </div>
 
 
-    </body>
 
-    </html>
 @endsection

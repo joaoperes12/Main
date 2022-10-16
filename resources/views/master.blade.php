@@ -20,84 +20,32 @@
 
 
 <body>
-    <!--contains all the div-->
-    <div id="all">
-        <!--mouse  follower-->
-        <div class="cursor"></div>
-        <!--mouse  follower-->
-        <!--loader-->
-        <div id="loader">
-            <span class="color">Arlo</span>Brown
-        </div>
-        <!--loader-end-->
-        <!--link-screen-->
-        <div id="breaker">
-        </div>
-        <div id="breaker-two">
-        </div>
-        <!--link-screen-->
-        <!--Main-Section-->
-        <!--Header-->
-        <div id="header">
-            <div id="particles"></div>
-            <!--Social Media Links-->
-            <div class="social-media-links">
-                <a href="#"><img src="{{ asset('images/instagram logo.png') }}" class="social-media"
-                        alt="instagram-logo"></a>
-                <!--Your instagram homepage link inser in place of "#"-->
-                <a href="#"><img src="{{ asset('images/facebook logo.png') }}" class="social-media"
-                        alt="facebook-logo"></a>
-                <a href="#"><img src="{{ asset('images/linkedin logo.png') }}" class="social-media"
-                        alt="linkedin-logo"></a>
-                <a href="#"><img src="{{ asset('images/twitter logo.png" ') }}" class="social-media"
-                        alt="twitter-logo"></a>
 
-            </div>
-            <!--Social Media Links end-->
-            <div class="header-content">
-                <div class="header-content-box">
-                    <div class="firstline"><span class="color">Arlo </span>Brown</div>
-                    <div class="secondline">
-                        I'm a
-                        <span class="txt-rotate color"
-                            data-period="1200"data-rotate='[ " Designer.", " Blogger.", " Freelancer." ]'></span>
-                        <span class="slash">|</span>
-                    </div>
-                    <div class="contact">
-                        <a href="Mailto:#"><img src="images/mail.png" alt="email-pic" class="contactpic"></a>
-                        <!--Your email Id write in place of "#"-->
-                        <a href="Tel:#"><img src="images/call.png" alt="phone-pic" class="contactpic"></a>
-                        <!--Your telephone number Id write in place of "#"-->
-                    </div>
-                </div>
-            </div>
-            <!--header image-->
-            <div class="header-image">
-                <img src="images/man.jpg" alt="logo">
-            </div>
-            <!--header image end-->
-        </div>
-        <!--Header End-->
-        @include('layout.partials.navbar')
+    @include('layout.partials.navbar')
 
-        @yield('content')
+    @yield('content')
 
 
-        <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/jquery.js') }}"></script>
 
-        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
-        <script src="{{ asset('js/fullpage.min.js') }}"></script>
+    <script src="{{ asset('js/fullpage.min.js') }}"></script>
 
-        <script src="{{ asset('js/scrolloverflow.js') }}"></script>
+    <script src="{{ asset('js/scrolloverflow.js') }}"></script>
 
-        <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 
-        <script src="{{ asset('js/jquery.inview.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.inview.min.js') }}"></script>
 
-        <script src="{{ asset('js/form.js') }}"></script>
+    <script src="{{ asset('js/form.js') }}"></script>
 
-        <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
+
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+
+    <script src="{{ asset('js/index.js') }}"></script>
+
 
 </body>
 
