@@ -26,10 +26,10 @@
          </div>
          <div class="navigation-links">
              <a href="#" data-text="HOME" id="home-link">Home</a>
-             <a href="#" data-text="ABOUT" id="about-link">Sobre</a>
+             <a href="#" data-text="SOBRE" id="about-link">Sobre</a>
              <a href="#" data-text="BLOG" id="blog-link">Blog</a>
-             <a href="#" data-text="PORTFOLIO" id="portfolio-link">Portefolio</a>
-             <a href="#" data-text="CONTACT" id="contact-link">Contacto</a>
+             <a href="#" data-text="PORTFOLIO" id="portfolio-link">Portfolio</a>
+             <a href="#" data-text="CONTACTO" id="contact-link">Contacto</a>
          </div>
      </div>
      <!--Navigator-Fullscreen END-->

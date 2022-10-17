@@ -111,8 +111,8 @@
                         <img src="{{ asset('images/coding.png') }}" alt="service-one">
                     </div>
                     <div class="service-description">
-                        <h2>Web Designing</h2>
-                        <p>Construir um website com o layout ao seu gosto</p>
+                        <h2>Web Design</h2>
+                        <p>Construção de websites com ou sem loja, consoante a sua necessidade</p>
                     </div>
                 </div>
                 <div class="service-two service wow">
@@ -120,8 +120,8 @@
                         <img src="{{ asset('images/instagram.png') }}" alt="service-two">
                     </div>
                     <div class="service-description">
-                        <h2>Social Media</h2>
-                        <p>Criação de ilustrações, banners, flyers e cartazes adequados à sua necessidade</p>
+                        <h2>Redes Sociais</h2>
+                        <p>Trabalhar o marketing, com o propósito de aumentar a sua atratividade</p>
                     </div>
                 </div>
                 <div class="service-three service wow">
@@ -129,8 +129,8 @@
                         <img src="{{ asset('images/bulb.png') }}" alt="service-three">
                     </div>
                     <div class="service-description">
-                        <h2>Creative Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        <h2>Multimédia</h2>
+                        <p>Produção e edição de fotografia e video</p>
                     </div>
                 </div>
             </div>
@@ -139,17 +139,17 @@
         <!--services end-->
         <div id="skills">
             <div class="skills-header">
-                My <span class="color"> Skills</span>
+                As minhas <span class="color">Habilidades</span>
             </div>
             <div class="skills-content " style="text-align: center;">
                 <div class="skill-html skill">
                     <div class="skill-text">
                         <div class="html">
-                            HTML/CSS
+                            Html & Css
                         </div>
                     </div>
                     <div class="html-prog wow prog">
-                        <div class="html-progress wow">95%</div>
+                        <div class="html-progress wow">50%</div>
                     </div>
                 </div>
                 <div class="skill-html skill">
@@ -159,27 +159,7 @@
                         </div>
                     </div>
                     <div class="html-prog wow prog">
-                        <div class="js-progress wow">90%</div>
-                    </div>
-                </div>
-                <div class="skill-html skill">
-                    <div class="skill-text">
-                        <div class="html">
-                            Adobe Ps
-                        </div>
-                    </div>
-                    <div class="html-prog wow prog">
-                        <div class="adobe-progress wow">83%</div>
-                    </div>
-                </div>
-                <div class="skill-html skill">
-                    <div class="skill-text">
-                        <div class="html">
-                            PHP
-                        </div>
-                    </div>
-                    <div class="html-prog wow prog">
-                        <div class="php-progress wow">87%</div>
+                        <div class="js-progress wow">40%</div>
                     </div>
                 </div>
                 <div class="skill-html skill">
@@ -189,26 +169,27 @@
                         </div>
                     </div>
                     <div class="html-prog wow prog">
-                        <div class="jquery-progress wow">94%</div>
+                        <div class="adobe-progress wow">60%</div>
                     </div>
                 </div>
                 <div class="skill-html skill">
                     <div class="skill-text">
                         <div class="html">
-                            SEO
+                            Laravel
                         </div>
                     </div>
                     <div class="html-prog wow prog">
-                        <div class="seo-progress wow">84%</div>
+                        <div class="php-progress wow">50%</div>
                     </div>
                 </div>
+
             </div>
         </div>
         <!--copyright-section You Can Remove After Downloading-->
         <div class="footer">
             <div class="footer-text">
-                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> Willy
-                Wonkas
+                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> By
+                João Peres
             </div>
         </div>
         <!--copyright-section-->
