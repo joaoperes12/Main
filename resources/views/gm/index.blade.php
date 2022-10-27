@@ -227,23 +227,11 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-            <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+        <div class="portfolio-header"> <span class="color"> O Meu </span> Portfolio
+            <span class="header-caption">Alguns dos meus <span class="color"> trabalhos</span></span>
         </div>
         <div id="portfolio-content">
-            <div class="portfolio portfolio-first">
-                <div class="portfolio-image">
-                    <img src="{{ asset('images/portfolio-first.jpg') }}" alt="portfolio-first">
-                </div>
-                <div class="portfolio-text">
-                    <h2>App Idea</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                        expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
-                        ducimus</p>
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                        class="gg-arrow-right"></i></span></button></a></div>
-                </div>
-            </div>
+
             <div class="portfolio portfolio-second">
                 <div class="portfolio-image">
                     <img src="{{ asset('images/portfolio-second.jpg') }}" alt="portfolio-second">
@@ -257,39 +245,12 @@
                                         class="gg-arrow-right"></i></span></button></a></div>
                 </div>
             </div>
-
-            <div class="portfolio portfolio-third">
-                <div class="portfolio-image">
-                    <img src="{{ asset('images/portfolio-third.jpg') }}" alt="portfolio-third">
-                </div>
-                <div class="portfolio-text">
-                    <h2>UI Designing</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                        expedita eius dignissimos
-                        .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                        class="gg-arrow-right"></i></span></button></a></div>
-                </div>
-            </div>
-            <div class="portfolio portfolio-fourth">
-                <div class=" portfolio-image">
-                    <img src="{{ asset('images/portfolio-fourth.jpg') }}" alt="portfolio-fourth">
-                </div>
-                <div class="portfolio-text">
-                    <h2>Wow Graphics</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                        expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
-                        ducimus</p>
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                        class="gg-arrow-right"></i></span></button></a></div>
-                </div>
-            </div>
         </div>
         <!--copyright-section You Can Remove After Downloading-->
         <div class="footer">
             <div class="footer-text">
-                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> Willy
-                Wonkas
+                <img src="{{ asset('images/copyright.png') }}" alt="copyright-img" class="images" height="14px"> João
+                Peres
             </div>
         </div>
         <!--copyright-section-->
@@ -327,8 +288,8 @@
                 </div>
             </div>
         </div>
-        <div class="blog-header"> Blogs</span>
-            <span class="header-caption"> My Latest <span class="color"> blog posts.</span></span>
+        <div class="blog-header"> Blog</span>
+            <span class="header-caption"> Os meus últimos <span class="color"> postes.</span></span>
         </div>
         <div class="blog-content">
             <div class="blogs">
@@ -438,7 +399,7 @@
     <div id="contact">
         <div class="color-changer">
             <div class="color-panel">
-                <img src="images/gear.png" alt="">
+                <img src="{{ asset('images/gear.png') }}" alt="">
             </div>
             <div class="color-selector">
                 <div class="heading">Custom Colors</div>
@@ -466,23 +427,22 @@
                 </div>
             </div>
         </div>
-        <div class="contact-header">Contact <span class="color"> Me</span>
-            <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+        <div class="contact-header">Contate <span class="color"> Me</span>
         </div>
         <div class="contact-content">
             <!--Contact form-->
             <div class="contact-form">
                 <div class="form-header">
-                    Message Me
+                    Para alguma questão, envie mensagem
                 </div>
                 <form id="myForm" action="#">
                     <div class="input-line">
-                        <input id="name" type="text" placeholder="Name" class="input-name">
+                        <input id="name" type="text" placeholder="Nome" class="input-name">
                         <input id="email" type="email" placeholder="Email" class="input-name">
                     </div>
-                    <input type="text" id="subject" placeholder="subject" class="input-subject">
-                    <textarea id="body" class="input-textarea" placeholder="message"></textarea>
-                    <button type="button" id="submit" value="send">Submit</button>
+                    <input type="text" id="subject" placeholder="Assunto" class="input-subject">
+                    <textarea id="body" class="input-textarea" placeholder="Mensagem"></textarea>
+                    <button type="button" id="submit" value="send">Enviar</button>
                 </form>
 
             </div>
@@ -490,28 +450,27 @@
             <!--Contact information-->
             <div class="contact-info">
                 <div class="contact-info-header">
-                    Contact Info
+                    Informações de contato
                 </div>
                 <div class="contact-info-content">
                     <div class="contect-info-content-line">
-                        <img src="{{ asset('images/icon-name.pngimages/icon-name.png') }}" class="icon"
-                            alt="name-icon">
+                        <img src="{{ asset('images/icon-name.png') }}" class="icon" alt="name-icon">
                         <div class="contact-info-icon-text">
-                            <h6>Name</h6>
-                            <p>Arlo Brown</p>
+                            <h6>Nome</h6>
+                            <p>João Peres</p>
                         </div>
                     </div>
                     <div class="contect-info-content-line">
                         <img src="{{ asset('images/icon-location.png') }}" class="icon" alt="location-icon">
                         <div class="contact-info-icon-text">
-                            <h6>Location</h6>
-                            <p>New York, USA</p>
+                            <h6>Localização</h6>
+                            <p>Leiria, Portugal</p>
                         </div>
                     </div>
                     <div class="contect-info-content-line">
                         <img src="{{ asset('images/icon-phone.png') }}" class="icon" alt="phone-icon">
                         <div class="contact-info-icon-text">
-                            <h6>Call</h6>
+                            <h6>Telemóvel</h6>
                             <p>+9865376531</p>
                         </div>
                     </div>
@@ -520,7 +479,7 @@
                         <img src="{{ asset('images/icon-email.png') }}" class="icon" alt="email-icon">
                         <div class="contact-info-icon-text">
                             <h6>Email</h6>
-                            <p>Info@example.com</p>
+                            <p>iamjoaoperes19@outlook.pt</p>
                         </div>
                     </div>
                 </div>
